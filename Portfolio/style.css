@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, #0f0f23, #1f1f3f);
+  color: white;
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.contact-btn {
+  background-color: #caff00;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  color: #000;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  position: relative;
+}
+
+.highlight {
+  color: #caff00;
+}
+
+.profile-img {
+  width: 220px;
+  border-radius: 50%;
+  margin-top: 2rem;
+}
+
+.btn {
+  background-color: #caff00;
+  color: black;
+  padding: 0.75rem 2rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.floating-card {
+  position: absolute;
+  background-color: #1c1c3a;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: white;
+  font-size: 0.85rem;
+}
+
+.review {
+  top: 10%;
+  left: 5%;
+}
+
+.skills {
+  top: 10%;
+  right: 5%;
+}
+
+.about {
+  text-align: center;
+  padding: 4rem 2rem;
+  position: relative;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  margin: 1rem auto;
+  max-width: 700px;
+}
+
+.floating-images {
+  position: relative;
+  margin-top: 2rem;
+}
+
+.floating-images img {
+  width: 80px;
+  margin: 0 1rem;
+  border-radius: 1rem;
+  animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.skills {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.skills-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.skills-grid img {
+  width: 60px;
+}
+
+.experience {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
